@@ -1,0 +1,105 @@
+
+/* ================
+Nav Basic 
+===================*/
+/* Navbar */
+.navbar {
+  margin-top: 20px;
+  background-color: #333;
+}
+
+.menu-basic {
+  ]
+  /* UNCOMENT TO RESET <ul> styles and remove bullets 
+  list-style-type: none;
+  padding: 0;
+  margin: 0; */
+}
+
+.menu-basic li {
+  /* apply width to li on mobile */
+}
+
+.menu-basic li a {
+  /* add padding, line-height, color, etc. */
+  text-decoration: none;
+}
+.menu-basic li a:hover {
+  /* reverse bg and color styles on hover */
+ 
+}
+
+* { /* resets box-sizing property */
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  padding: 20px;
+}
+
+/* styles for screens 768 and larger */
+@media screen and (min-width: 768px) {
+  .menu-basic {
+   /* add flex styles for desktiop */
+  }
+
+  .menu-basic li {
+    /* resets width of list items on larger screens */
+    width: auto;
+  }
+
+  .menu-basic li a {
+    /* resets width of links items on larger screens */
+    width: 100%;
+  }
+}
+
+
+/* ================
+    Nav Fixed 
+===================*/
+
+main {
+  padding-top: 60px;
+}
+
+.menu-fixed {
+ /* add positioning and flex styles below */
+  
+  
+  /* uncomment to apply reset styles 
+  list-style-type: none;
+  padding: 0;
+  margin: 0; */
+}
+
+.menu-fixed li {
+  /* set width */
+}
+
+.menu-fixed li a {
+  /* set links styles with padding, color, line-height, etc. */
+}
+
+.menu-fixed li a:hover {
+  /* hover styles */
+}
+
+
+@media screen and (min-width: 768px) {
+  .menu-fixed {
+   /* positioning and flex styles */
+  }
+
+  .menu-fixed li {
+    /* reset width */
+    /* width: auto; */
+  }
+
+  .menu-fixed li a {
+    /*reset width */
+    /*width: 100%; */
+  }
+
+}

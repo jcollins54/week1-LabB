@@ -1,0 +1,195 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:200,400,700');
+* {
+  box-shadow: border-box;
+}
+body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-size: 2.2em;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.25em;
+}
+
+h5 {
+  font-size: 1.125em;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+.main-content {
+  min-height: 100vh;
+  /* grid styles */
+  
+}
+
+.main-content > * {
+  /* styles below center the text in the boxes */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* header */
+header {
+  /* grid-area style */
+  background: #333;
+  text-align: center;
+  padding: 15px;
+}
+
+header h1 {
+  color: white;
+  text-decoration: none;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.section {
+  background: #eee;
+  /* grid-area style */
+  text-align: center;
+}
+
+.article1 {
+  /* grid-area style */
+  background: lightblue;
+  text-align: center;
+}
+
+.article2 {
+  /* grid-area style */
+  background: lightblue;
+  text-align: center;
+}
+
+.sidebar {
+  /* grid-area style */
+  background: orange;
+  text-align: center;
+
+}
+
+footer {
+  background: #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+footer ul li{
+  padding: 5px;
+}
+
+
+
+/* Devices with screens 768 and larger */
+@media screen and (min-width: 768px) {
+  .main-content {
+    height: 100vh;
+    /* grid style */
+    /* grid-template-area styles */
+    
+  }
+
+  .main-content > * {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* header */
+  header {
+    /* grid-area style */
+    background: #333;
+    text-align: center;
+    padding: 15px;
+  }
+
+  header h1 {
+    color: white;
+    text-decoration: none;
+  }
+
+  header h1 {
+    margin: 0;
+  }
+
+  .section {
+    background: #eee;
+    /* grid-area style */
+    text-align: center;
+  }
+
+  .article1 {
+    /* grid-area style */
+    background: lightblue;
+    text-align: center;
+  }
+
+  .article2 {
+    /* grid-area style */
+    background: lightblue;
+    text-align: center;
+  }
+
+  .sidebar {
+    /* grid-area style */
+    background: orange;
+    text-align: center;
+
+  }
+
+  footer {
+    background: #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+
+  footer ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+
+  footer ul li{
+    padding: 5px;
+  }
+
+
+  
+}
+
+
